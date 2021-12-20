@@ -1,5 +1,5 @@
 const defaultState = {
-  users: ["No User!"],
+  users: [],
 };
 
 export default function homePageReducer(state = defaultState, action) {
