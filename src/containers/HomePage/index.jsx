@@ -9,7 +9,7 @@ import { UsersList } from './usersList';
 
 
 const stateSelector = createSelector(makeSelectUsers, (users) => ({
-  users
+  users,
 }));
 
 const actionDispatch = (dispatch) => ({
